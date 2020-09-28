@@ -1,0 +1,457 @@
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+         ::-moz-selection {
+            /* Code for Firefox */
+            color: #fff;
+            background: red;
+        }
+        
+        #menu-bar .navbar .container a img {
+            width: 150px;
+        }
+        
+        #menu-bar {
+            background-image: url(../../img/banner3_co.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .navbar {
+            padding-top: 20px;
+        }
+        
+        .nav-link {
+            color: #fff;
+            font-weight: 400;
+            font-size: 16px;
+        }
+        
+        .nav-link:hover {
+            color: #ed145b !important;
+        }
+        
+        .navbar-nav .nav-link {
+            padding-right: 1.5rem !important;
+            padding-left: 1.5rem !important;
+        }
+        
+        #menu-bar .banner .container .banner-text,
+        .banner-img {
+            padding: 20% 0 18%;
+            text-align: center;
+        }
+        
+        #menu-bar .banner .container .banner-text h1 {
+            font-size: 40px;
+            color: #fff;
+            text-transform: uppercase;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+        }
+        
+        #menu-bar .banner .container .banner-text span {
+            width: 200px;
+            height: 3px;
+            margin: 20px auto;
+            display: block;
+            background: #ed145b;
+        }
+        
+        #menu-bar .banner .container .banner-text p {
+            font-size: 16px;
+            color: #fff;
+        }
+        
+        #menu-bar .banner .container .banner-text a button {
+            font-size: 16px;
+            line-height: 19px;
+            color: #ffffff;
+            align-self: center;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            margin: 10px 0px;
+            background: #ed145b;
+            border-radius: 33px;
+            padding: 12px 36px;
+            border: none;
+            text-transform: uppercase;
+        }
+        
+        #template {
+            background-color: #f4f4f4;
+            margin-top: -32px;
+            padding: 70px 0 0;
+            clip-path: polygon(0 6%, 100% 0%, 100% 99%, 0% 100%);
+        }
+        
+        #template .container .template-content h2 {
+            color: #5a5a5a;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 32px;
+        }
+        
+        #template .container .template-content p {
+            color: #5a5a5a;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 14px;
+        }
+        
+        #template .container .template-content span {
+            width: 150px;
+            height: 2px;
+            margin: 15px 0;
+            display: block;
+            background: #ed145b;
+        }
+        
+        #template .container .template-content a {
+            color: #ed145b;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        
+        #template .container .template-content .fa {
+            border: 1px solid #ed145b;
+            padding: 1px 6px;
+            border-radius: 50%;
+            margin-left: 5px;
+        }
+        
+        #services .container .services-heading h1 {
+            color: #5a5a5a;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 32px;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        #services {
+            padding: 70px 0;
+        }
+        
+        #services .container .services-heading span {
+            width: 150px;
+            height: 2px;
+            margin: 35px auto;
+            display: block;
+            background: #ed145b;
+        }
+        
+        #services .container .services-heading p {
+            color: #5a5a5a;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            padding-bottom: 65px;
+        }
+        
+        #services .container .services-content {
+            text-align: center;
+        }
+        
+        #services .container .services-content .services-img-1 {
+            width: 130px;
+            height: 130px;
+            border: 1px solid #ed145b;
+            border-radius: 50%;
+            padding: 50px 0;
+            margin: 0 auto;
+        }
+        
+        #services .container .services-content .services-img-2 {
+            width: 130px;
+            height: 130px;
+            border: 1px solid #ed145b;
+            border-radius: 50%;
+            padding: 40px 0;
+            margin: 0 auto;
+        }
+        
+        #services .container .services-content .services-img-3 {
+            width: 130px;
+            height: 130px;
+            border: 1px solid #ed145b;
+            border-radius: 50%;
+            padding: 37px 0;
+            margin: 0 auto;
+        }
+        
+        #services .container .services-content .services-img-4 {
+            width: 130px;
+            height: 130px;
+            border: 1px solid #ed145b;
+            border-radius: 50%;
+            padding: 40px 0;
+            margin: 0 auto;
+        }
+        
+        #services .container .services-content p {
+            color: #ed145b;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 15px 0;
+        }
+        
+        #comments {
+            background-image: url(../../img/3Mache_Template-Symu_co.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        #comments .comments-info {
+            padding: 170px 0px;
+            text-align: center;
+        }
+        
+        #comments .comments-info .carousel-inner .carousel-item p {
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 20px;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        #comments .comments-info .carousel-inner .carousel-item .fa {
+            font-size: 30px;
+            color: #ed145b;
+        }
+        
+        .carousel-inner {
+            width: 80%;
+            margin: 0 auto;
+        }
+        /*++++++++++++++Pricing+++++++++++++++*/
+        
+        #prices {
+            padding: 70px 0;
+            background-color: #f4f4f4;
+        }
+        
+        #prices .container .prices-heading h1 {
+            color: #5a5a5a;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 32px;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        #prices .container .prices-heading span {
+            width: 150px;
+            height: 2px;
+            margin: 35px auto;
+            display: block;
+            background: #ed145b;
+        }
+        
+        #prices .container .prices-heading p {
+            color: #5a5a5a;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            padding-bottom: 65px;
+        }
+        
+        #prices .container .prices-content {
+            background-color: #fff;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        
+        #prices .container .prices-content:hover .prices-info {
+            background: #ed145b;
+        }
+        
+        #prices .container .prices-content .prices-info {
+            background-color: #5a5a5a;
+            padding: 25px 0;
+            transition: .5s ease-in-out;
+        }
+        
+        #prices .container .prices-content .prices-info h1 {
+            font-size: 40px;
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+        
+        #prices .container .prices-content .prices-info h1 span {
+            font-size: 20px;
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+        }
+        
+        #prices .container .prices-content .prices-info p {
+            font-size: 14px;
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+        }
+        
+        #prices .container .prices-content .prices-btn {
+            margin-top: -25px;
+        }
+        
+        #prices .container .prices-content .prices-btn a button {
+            font-size: 16px;
+            line-height: 19px;
+            color: #5a5a5a;
+            align-self: center;
+            font-weight: 400;
+            background: #f4f4f4;
+            border-radius: 33px;
+            padding: 12px 46px;
+            border: none;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        
+        #prices .container .prices-content .prices-details p {
+            font-size: 14px;
+            color: #5a5a5a;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            line-height: 25px;
+        }
+        
+        #prices .container .prices-content .prices-details a button {
+            font-size: 16px;
+            line-height: 19px;
+            color: #fff;
+            align-self: center;
+            font-weight: 400;
+            background: #ed145b;
+            border-radius: 33px;
+            padding: 12px 46px;
+            border: none;
+            text-transform: uppercase;
+        }
+        
+        #product-details {
+            padding: 70px 0;
+        }
+        
+        #product-details .container .product-details-content .product-details-text h3 {
+            font-size: 14px;
+            color: #ed145b;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            text-transform: uppercase;
+            padding: 0 15px;
+        }
+        
+        #product-details .container .product-details-content {
+            margin-bottom: 30px;
+        }
+        
+        #product-details .container .product-details-content .product-details-text p {
+            font-size: 14px;
+            color: #5a5a5a;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            padding: 15px 15px;
+        }
+        
+        #became {
+            background-color: #ed145b;
+        }
+        
+        #became .container .became-content {
+            text-align: center;
+            padding: 45px 0 33px;
+        }
+        
+        #became .container .became-content h2 {
+            font-size: 32px;
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        
+        #became .container .became-content a button {
+            font-size: 16px;
+            line-height: 19px;
+            color: #ed145b;
+            align-self: center;
+            font-weight: 400;
+            background: #fff;
+            border-radius: 33px;
+            padding: 12px 46px;
+            border: none;
+            text-transform: uppercase;
+        }
+        /*++++++Our latest++++++++++*/
+        
+        #latest {
+            padding: 70px 0;
+            background-color: #fff;
+        }
+        
+        #latest .container .latest-heading h1 {
+            color: #5a5a5a;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 32px;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        #latest .container .latest-heading span {
+            width: 150px;
+            height: 2px;
+            margin: 35px auto;
+            display: block;
+            background: #ed145b;
+        }
+        
+        #latest .container .latest-heading p {
+            color: #5a5a5a;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            padding-bottom: 65px;
+        }
+        
+        #latest .container .latest-content {
+            background-color: #f4f4f4;
+        }
+        
+        #latest .container .latest-content h3 {
+            color: #5a5a5a;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            text-transform: uppercase;
+            padding: 15px 10px 0;
+        }
+        
+        #latest .container .latest-content p {
+            color: #5a5a5a;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+            padding: 0 10px 15px;
+        }
